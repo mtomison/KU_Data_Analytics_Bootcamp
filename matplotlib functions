@@ -1,0 +1,11 @@
+Matplotlib Functions	Feature
+plt.figure(figsize=(w, h))	Change the size of the figure in pixels. Added on the first line of the script.
+plt.plot(x, y, label='line')	Add a label that will be added to the legend.
+plt.xlim(min, max)	Set the min and max range of the x-axis.
+plt.ylim(min, max)	Set the min and max range of the y-axis.
+plt.xlabel('x label')	Add a label to the x-axis.
+plt.ylabel('y label')	Add a label to the y-axis.
+plt.title("Title")	Add a title.
+plt.legend()	Add a legend.
+plt.grid()	Add a grid to the chart.
+plt.savefig("add a path and figure extension")	Save the figure with the given extension. Added at the end of the script.
