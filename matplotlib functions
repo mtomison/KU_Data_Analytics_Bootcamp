@@ -9,3 +9,9 @@ plt.title("Title")	Add a title.
 plt.legend()	Add a legend.
 plt.grid()	Add a grid to the chart.
 plt.savefig("add a path and figure extension")	Save the figure with the given extension. Added at the end of the script.
+
+
+To declare the parameters for line color, width, and marker, we use color=, width=, and marker=, respectively, inside the plt.plot() function.
+
+
+Ex: plt.plot(x_axis, y_axis, marker="*", color="blue", linewidth=2, label='Boston')
